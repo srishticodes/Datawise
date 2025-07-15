@@ -1,7 +1,7 @@
 import React from 'react';
 import BarChartComponent from '../components/BarChartComponent';
 import UserActivityTable from '../components/UserActivityTable';
-import AddUserForm from '../components/AddUserForm';
+import FeedbackForm from '../components/FeedbackForm';
 import './Dashboard.css';
 
 const Dashboard = () => {
@@ -16,8 +16,8 @@ const Dashboard = () => {
         <UserActivityTable />
       </div>
       <div className="card">
-        <h2>Add User</h2>
-        <AddUserForm />
+        <h2>Submit Feedback</h2>
+        <FeedbackForm />
       </div>
     </div>
   );
