@@ -1,5 +1,10 @@
+.users-page h1 {
+  color: var(--header-text-color);
+}
+
 .users-page .card {
-  background: white;
+  background: var(--card-background);
+  color: var(--text-color);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
